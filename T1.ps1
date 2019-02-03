@@ -26,6 +26,7 @@ Get-Command -Type Cmdlet *item*
 
 #8.	Создайте свой псевдоним для любого командлета
 New-Alias -name 'gta' get-process
+gta
 
 #9.	Просмотреть список методов и свойств объекта типа процесс
 get-process | get-member
