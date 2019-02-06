@@ -60,8 +60,13 @@ get-random
 
 
 #18.	Откройте любой документ в MS Word (не важно как) и закройте его с помощью PowerShell
-Start-Process winword 
-stop-process -name winword
 
+$path = 'D:\test123.doc' # указали путь
+New-Item $path # создали объект
+Start-Process winword.exe $path # запустили Word и открыли этот объект
+ 
+ Stop-Process -name winword # остановили Word
+ 
+remove-item $path # удалили объект
 
 
