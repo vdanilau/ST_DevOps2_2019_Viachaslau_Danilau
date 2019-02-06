@@ -1,30 +1,30 @@
-﻿$a='abcdefghijklmnopqrstuvwxyz .' #задали изначальный массив
+﻿$a='abcdefghijklmnopqrstuvwxyz .()' #задали изначальный массив
 
 $b = ''
 $res=''
 
 for ($n=0; $n -lt 24 ; $n++) {  $b+=$a[$n+2] }
-$b =$b + $a[0] + $a[1] + $a[26] + $a[27]
+$b =$b + $a[0] + $a[1] + $a[26] + $a[27] + $a[28] + $a[29]
 #$b
 #$b #получили массив-ключ
 
-$m='g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'  #crypto array
+$m="g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."  #crypto array
 
 
 
-for ($i=0; $i -lt 29 ; $i++) {switch ($m[$i])   
+for ($i=0; $i -lt $m.Length ; $i++) {switch ($m[$i])   
 
 
 
                                         
-                                       {     $a[0] { $b[0]; break}  
+                                       {     $a[0] {$b[0]; break}  
 
                                              $a[1] {$b[1]; break}  
                                              $a[2] {$b[2]; break}  
                                              $a[3] {$b[3]; break}  
                                              $a[4] {$b[4]; break}  
                                              $a[5] {$b[5]; break}  
-                                             $a[6] { $b[6] ; break}  
+                                             $a[6] {$b[6] ; break}  
                                              $a[7] {$b[7]; break}  
                                              $a[8] {$b[8]; break}  
                                              $a[9] {$b[9]; break}  
@@ -45,12 +45,11 @@ for ($i=0; $i -lt 29 ; $i++) {switch ($m[$i])
                                              $a[24] {$b[24]; break}  
                                              $a[25] {$b[25]; break}  
                                              $a[26] {$b[26]; break} 
-                                             $a[27] {$b[27]; break}                                            
+                                             $a[27] {$b[27]; break}  
+                                             $a[28] {$b[28]; break} 
+                                             $a[29] {$b[29]; break}                                           
  
   }}
-
-
-
 
 
 
